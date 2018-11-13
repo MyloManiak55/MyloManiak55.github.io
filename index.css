@@ -1,0 +1,54 @@
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50%;
+  background-position: center;
+  display: block;
+  background: url(Background.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
+}
+
+.hoi {
+  margin-top: 300px;
+}
+
+.textbalk {
+  background-color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
